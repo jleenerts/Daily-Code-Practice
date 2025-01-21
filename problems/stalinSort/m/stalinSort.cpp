@@ -8,7 +8,6 @@ stalinSort::stalinSort(std::vector<int> &toSort, bool stl)
     {
         if (toSort[index] < last && stl)
         {
-            std::cout << "delete " << (toSort[index] < last) << std::endl;
             toSort.erase(toSort.begin()+index);
             index--;
             continue;
@@ -16,7 +15,6 @@ stalinSort::stalinSort(std::vector<int> &toSort, bool stl)
 
         if (toSort[index] > last && !stl)
         {
-            std::cout << "delete " << !stl << std::endl;
             toSort.erase(toSort.begin()+index);
             index--;
             continue;
