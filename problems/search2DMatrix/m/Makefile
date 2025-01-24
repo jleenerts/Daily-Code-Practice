@@ -15,3 +15,4 @@ $(EXE): $(SRC)
 # Clean up
 clean:
 	rm -f $(EXE)
+

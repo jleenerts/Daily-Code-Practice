@@ -30,6 +30,7 @@ int search2D::search(std::vector<std::vector<int>>& matrix, int target)
 
     int left = 0;
     int right = matrix[row].size() - 1;
+    
 
     while (left <= right)
     {
