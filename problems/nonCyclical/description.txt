@@ -1,3 +1,5 @@
+Credit: https://neetcode.io/problems/non-cyclical-number
+
 A non-cyclical number is an integer defined by the following algorithm:
 
 Given a positive integer, replace it with the sum of the squares of its digits.
