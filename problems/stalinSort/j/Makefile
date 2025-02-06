@@ -8,7 +8,7 @@ SRCS = main.cpp stalinSort.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 
-all: $(TARGET) run
+all: clean $(TARGET) run
 
 $(TARGET): $(OBJS)
 	$(CXX) $(CXXFLAGS) -o $(TARGET) $(OBJS)
