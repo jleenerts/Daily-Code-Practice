@@ -1,3 +1,5 @@
+Credit: https://neetcode.io/problems/car-fleet
+
 There are n cars traveling to the same destination on a one-lane highway.
 
 You are given two arrays of integers position and speed, both of length n.
