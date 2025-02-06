@@ -1,11 +1,9 @@
 #include <iostream>
 #include "LRUCache.h"
 
-int main() {
-    // Create an LRUCache object with a capacity of 2
+int main() {  
     LRUCache cache(2);
 
-    // Test sequence (as per your example)
     std::cout << "put(1, 10): ";
     cache.put(1, 10); // cache: {1=10}
 
