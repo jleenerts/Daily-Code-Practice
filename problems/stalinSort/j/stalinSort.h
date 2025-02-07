@@ -11,12 +11,14 @@ class StalinSort {
           StalinSort(vector<int>& data);
           
           void sort() const;
+          void print() const;
+          
           void changeVector(vector<int>& newVec);
 
           // never forgetti the destructor
           ~StalinSort();
      private:
-          vector<int>& data;
+          vector<int> * vec;
 };
 
 #endif
