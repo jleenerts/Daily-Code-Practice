@@ -17,5 +17,4 @@ bool Palindrome::isPalindrome(std::string s)
     }
 
     return true;
-
 }
