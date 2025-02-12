@@ -33,3 +33,5 @@ bool CheckDupes::check() const {
     }
     return false;
 }
+
+CheckDupes::~CheckDupes() {}

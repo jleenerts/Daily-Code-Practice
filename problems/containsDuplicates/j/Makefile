@@ -4,7 +4,7 @@ CXXFLAGS = -std=c++11 -Wall -Wextra -Werror -pedantic
 
 TARGET = main
 
-SRCS = main.cpp stalinSort.cpp
+SRCS = *.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 
