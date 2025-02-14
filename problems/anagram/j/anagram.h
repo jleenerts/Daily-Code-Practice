@@ -7,3 +7,5 @@ class Anagram {
     public:
         bool isAnagram(std::string s, std::string t) const;
 };
+
+#endif
