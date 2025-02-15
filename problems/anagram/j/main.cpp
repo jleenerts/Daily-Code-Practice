@@ -13,7 +13,7 @@ int main()
     string str1 = "listen";
     string str2 = "silent";
     
-    cout << "running Anagram" << endl;
+    cout << "Running Anagram" << endl;
     Anagram anagram;
 
     cout << "str1: " << str1 << endl;
