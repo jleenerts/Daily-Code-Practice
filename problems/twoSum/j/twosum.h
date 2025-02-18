@@ -5,9 +5,7 @@
 
 class TwoSum {
      public:
-          std::vector<int> twoSum(std::vector<int>& nums, int target);
-          
-          ~TwoSum();
+          std::vector<int> twoSum(const std::vector<int>& nums, int target);
      private:
 };
 
