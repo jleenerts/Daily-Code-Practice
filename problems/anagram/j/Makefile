@@ -4,7 +4,7 @@ CXXFLAGS = -std=c++11 -Wall -Wextra -Werror -pedantic
 
 TARGET = main
 
-SRCS = *.cpp
+SRCS = main.cpp $(filter-out main.cpp, $(wildcard *.cpp))
 
 OBJS = $(SRCS:.cpp=.o)
 
