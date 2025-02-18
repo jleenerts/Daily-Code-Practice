@@ -7,19 +7,18 @@ vector<int> TwoSum::twoSum(const vector<int>& nums, int target) {
 
     // we can use a hash map to store the values we have seen
     // first value is the difference and second value is the position of the number
-    
+
     unordered_map<int, int> seen;
     for (size_t i = 0; i < nums.size(); i++) {
         // difference is subtracting the current number from the target
         int difference = target - nums[i];
-        // if it is already in the map, we have found the solution
         if (seen.find(difference) != seen.end()) {
             result = { seen[difference], static_cast<int>(i) };
             return result;
         }
-        // else we add the current number to the map
+        // else we add the current num to the map
         else {
-            seen[difference] = i;
+            seen[nums[i]] = i;
         }
     }
 
