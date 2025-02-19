@@ -1,10 +1,11 @@
 #include "groupGrams.h"
-
+#include <unordered_map>
 using namespace std;
 
 vector<vector<string>> GroupAnagrams::groupAnagrams(const vector<string>& data) {
-    int i = data.size();
-    i++;
+     vector<vector<string>> result;
+     int i = data.size();
+     i++;
 
-    return vector<vector<string>>();
+     return result;
 }

@@ -8,8 +8,8 @@
 using namespace std;
 
 class GroupAnagrams {
-    public:
-        vector<vector<string>> groupAnagrams(const vector<string>& strs);
+     public:
+          vector<vector<string>> groupAnagrams(const vector<string>& strs);
 };
 
 
